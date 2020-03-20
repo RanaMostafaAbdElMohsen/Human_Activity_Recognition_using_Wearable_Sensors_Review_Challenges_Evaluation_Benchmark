@@ -18,13 +18,13 @@
   - As summary we are interested in y-axis and z-axis
   
 #### Features Extraction
-There are 6 important features mentioned in the paper
-1- Average-A(3)
-2- Standard Deviation-SD(3)
-3- Average Absolute Diff. AAD(3)
-4- Average Resultant Acceleration ARA(1)
-5- Time Between Peaks TBP
-6- Binned Distribution
+There are 6 important features mentioned in the paper:
+1. Average-A(3)
+2. Standard Deviation-SD(3)
+3. Average Absolute Diff. AAD(3)
+4. Average Resultant Acceleration ARA(1)
+5. Time Between Peaks TBP
+6. Binned Distribution
 
 #### Paper Approach
 Majority Voting Between 3 classical classifiers
