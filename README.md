@@ -1,66 +1,69 @@
-# Bevilacqua et al 2019
-https://arxiv.org/pdf/1906.01935.pdf
+# Jian Sun et al 2018
+https://www.hindawi.com/journals/js/2018/8580959/
 ## Summary
-https://docs.google.com/document/d/1I96tZfD0pYkfr3qb4VsUtid2StrkhLovwHx70Vk2KBw/edit?usp=sharing
+https://docs.google.com/document/d/19ORHFY05gM035UpxD-7SD3C9j29edp-UfUTOz3Oifb8/edit?usp=sharing
 ### About Paper
 
 #### Background & Info
-- The physical activities targeted in this paper are part of 
-  the Otago Exercise Programme 
-- Grouped 16 different activities into
-	four categories: walk, walking balance, standing balance, and strength
+- Datset Used: OPPORTUNITY
+- OPPORTUNITY dataset are extremely imbalanced, the NULL 
+  Class accounts for more than 70% of all the data
+- The convolutional neural network assumes that the
+   inputs and outputs of the model are independent from each
+   other,thus, some time information must be included in the input data. Long short-term memory (LSTM) network has been proposed to solve this problem. Use ELM network as fully connected classifier
+- OPPORTUNITY activity recognition dataset is composed of a
+   set of complex human natural activities collected in an environment where rich sensors are installed
 	
-- The chosen device for this study is Shimmer3,e returns a 
-  set of six signals (three acceleration components, over the axes x, y and z, and three angular velocity components
-- The sampling rate is set to 102.4 Hz for all sensors  
-- The group of 19 participants consists of 7 males and 12 
-  females. Participants have a mean age of 22.94±2.39, a mean height of 164.34±7.07 cm, and a mean weight of 66.78±11.92 kg	
+- consider the on-body sensors, including inertial 
+   measurement units and 3-axis accelerometers
+- Each sensor channel is treated as an individual channel, a
+	total of 113 channels. The sampling frequency of these
+	sensors is 30 Hz.
+- OPPORTUNITY dataset contains gestures and postures
+- 18-class classification problem;
 
   
 #### Preprocessing
-- Datset segmented into small overlapping windows of 204  
-  points,  corresponding to roughly 2 seconds of movements,
-  with a stride of 5 points
+- used 0 to fill in missing values of the sensor data
+- each sensor channel was normalized to interval 0, 1
+- used a fixed-length sliding window to segment data
+- The length of the window is 500 ms and the step size is 
+   250 ms
 
 
 
 
 #### Paper Approach
 - Training  Model :
-	- training epochs varies from 150
-		to up to 300
-	- learning rate is fixed to 0.005
-	- a batch size of 1024	
+	- a learning rate of 0.001		
+	- a decay factor of 0.9
+	
 - evaluate the performance of model based on :
-	- collect individual precision and recall scores
-		for every combination of sensors and activities,
-		then compute the Fscores.
+	- F-measure, it takes into account
+	both the precision and the recall of each class to compute 	the score and can evaluate the model better than the precision
 	
 #### Paper Model architecture
 
 | Layer          | Params               | 
 | -------------  |:--------------------:| 
-| conv2d_1       | (3x5)                |
-| BtachNorm      |                      |
-| MaxPool        | (3x3)                | 
-| conv2d_2       | (2x4)                | 
-| BtachNorm      |                      |
-| MaxPool        | (2x2)                |
-| conv2d_3       | (2x2)                | 
-| BtachNorm      |                      |
-| MaxPool        | (3x2)                |
-| Flatten_1      | (500)                |
-| Flatten_2      | (250)                |
-| dense_1        | (115)                | 
+| conv2d_1       | (5x1)                |
+| conv2d_2       | (5x1)                |
+| conv2d_3       | (5x1)                | 
+| conv2d_4       | (5x1)                |
+| LSTM           |  128                 |
+| LSTM           |  128                 |
+| ELM/ fullyconn | (num_classes)        | 
+
 
 
 
 #### Paper Accuracies Obtained with Implementation Existing in Repo
+
 - With Respect to LOSO DataSet:
 
 | LOSO          | Catal Model Accuracy | 
 | ------------- |:--------------------:| 
-| MHealth       | 85.00%               |
+| MHealth       | ------               |
 | USCHAD        | ------               | 
 | UTDMHAD1_1s   | ------               |
 | UTDMHAD2_1s   | ------               |
@@ -71,7 +74,7 @@ https://docs.google.com/document/d/1I96tZfD0pYkfr3qb4VsUtid2StrkhLovwHx70Vk2KBw/
 
 | SNOW          | Catal Model Accuracy | 
 | ------------- |:--------------------:| 
-| MHealth       | 93.11%               |
+| MHealth       | ------               |
 | USCHAD        | ------               | 
 | UTDMHAD1_1s   | ------               |
 | UTDMHAD2_1s   | ------               |
@@ -82,7 +85,7 @@ https://docs.google.com/document/d/1I96tZfD0pYkfr3qb4VsUtid2StrkhLovwHx70Vk2KBw/
 
 | LOTO          | Catal Model Accuracy | 
 | ------------- |:--------------------:| 
-| MHealth       | 89.62%               |
+| MHealth       | ------               |
 | USCHAD        | ------               | 
 | UTDMHAD1_1s   | ------               |
 | UTDMHAD2_1s   | ------               |
@@ -93,7 +96,7 @@ https://docs.google.com/document/d/1I96tZfD0pYkfr3qb4VsUtid2StrkhLovwHx70Vk2KBw/
 
 | FNOW          | Catal Model Accuracy | 
 | ------------- |:--------------------:| 
-| MHealth       | 95.96%               |
+| MHealth       | ------               |
 | USCHAD        | ------               | 
 | UTDMHAD1_1s   | ------               |
 | UTDMHAD2_1s   | ------               |
