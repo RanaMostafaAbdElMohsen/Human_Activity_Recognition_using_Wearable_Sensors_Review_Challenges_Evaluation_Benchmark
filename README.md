@@ -1,72 +1,69 @@
-# Panwar et al. 2015
-https://www.ncbi.nlm.nih.gov/pubmed/29060391
-
+# Bevilacqua et al 2019
+https://arxiv.org/pdf/1906.01935.pdf
 ## Summary
-https://docs.google.com/document/d/13RBlVf5hCFd2rVwn19_KIMjUZnaJVjm_07aRUCO_Pmg/edit?usp=sharing
+https://docs.google.com/document/d/1I96tZfD0pYkfr3qb4VsUtid2StrkhLovwHx70Vk2KBw/edit?usp=sharing
 ### About Paper
 
 #### Background & Info
-- Paper proposed architecture to detect arm movements
-- Classes : 3 Classes including :
-	- Action A – Reach and retrieve an object
-	- Action B – Lift cup to mouth
-	- Action C – Perform pouring or (un)locking action
-- wearable Shimmer 9DoF,having tri-axis accelerometer, gyroscope, and a magnetometer.	
+- The physical activities targeted in this paper are part of 
+  the Otago Exercise Programme 
+- Grouped 16 different activities into
+	four categories: walk, walking balance, standing balance, and strength
+	
+- The chosen device for this study is Shimmer3,e returns a 
+  set of six signals (three acceleration components, over the axes x, y and z, and three angular velocity components
+- The sampling rate is set to 102.4 Hz for all sensors  
+- The group of 19 participants consists of 7 males and 12 
+  females. Participants have a mean age of 22.94±2.39, a mean height of 164.34±7.07 cm, and a mean weight of 66.78±11.92 kg	
 
   
 #### Preprocessing
-There are 3 type of preprocessing mentioned in the paper, that produce 3 different datasets:
-1. Basic Preprocessing:
-	- data are normalized and then resampled to fixed length i.e. 64 points 
+- Datset segmented into small overlapping windows of 204  
+  points,  corresponding to roughly 2 seconds of movements,
+  with a stride of 5 points
 
-2. Advanced Preprocessing:
-	- Smoothing- Makes the model insignificant to small perturbations
-	- Normalization- Transformation of all data into specific range (0 -1). 
-	- Mode capturing- Removal of undesired part where no activity has occurred and extract the required signal
-	- Resampling- Conversion of all data from variable size to fixed size
-3. Synthetic Data
+
 
 
 #### Paper Approach
-- Training two different architectures based on preprocessing type.
-- evaluate the performance of model based on three cases:
-	- Cross-validation evaluation-Training and testing
-		with cross-validation.
-	- Inter-subject evaluation - Training with 3 subjects
-		and testing with other subject
-	- Hybrid evaluation- Out of 4 repetitions, Training
-		with 3 sets of data taken from each subject and
-		testing with remaining one set from each subject.	
-
+- Training  Model :
+	- training epochs varies from 150
+		to up to 300
+	- learning rate is fixed to 0.005
+	- a batch size of 1024	
+- evaluate the performance of model based on :
+	- collect individual precision and recall scores
+		for every combination of sensors and activities,
+		then compute the Fscores.
+	
 #### Paper Model architecture
-1- Architecture 1
-| Layer          | Params               | 
-| -------------  |:--------------------:| 
-| conv2d_1       | (5,9,3)              |
-| conv2d_2       | (5,5,3)              | 
-| Max2d_1        | (2,1)                |
-| Flatten_1      | (480)                |
-| dense_1        | (3)                  | 
 
-1- Architecture 2
 | Layer          | Params               | 
 | -------------  |:--------------------:| 
-| conv2d_1       | (5,9,3)              |
-| conv2d_2       | (5,7,3)              | 
-| conv2d_3       | (5,5,3)              | 
-| Max2d_1        | (2,1)                |
-| Flatten_1      | (480)                |
-| dense_1        | (3)                  | 
+| conv2d_1       | (3x5)                |
+| BtachNorm      |                      |
+| MaxPool        | (3x3)                | 
+| conv2d_2       | (2x4)                | 
+| BtachNorm      |                      |
+| MaxPool        | (2x2)                |
+| conv2d_3       | (2x2)                | 
+| BtachNorm      |                      |
+| MaxPool        | (3x2)                |
+| Flatten_1      | (500)                |
+| Flatten_2      | (250)                |
+| dense_1        | (115)                | 
+
+
 
 #### Paper Accuracies Obtained with Implementation Existing in Repo
 - With Respect to LOSO DataSet:
 
 | LOSO          | Catal Model Accuracy | 
 | ------------- |:--------------------:| 
-| MHealth       | 09.01%               |
-| USCHAD        | 14.72%               | 
-| UTDMHAD1_1s   | 05.23%               |
-| UTDMHAD2_1s   | 40.63%               |
+| MHealth       | 85.00%               |
+| USCHAD        | ------               | 
+| UTDMHAD1_1s   | ------               |
+| UTDMHAD2_1s   | ------               |
 | WHARF         | ------               | 
 | WISDM         | ------               |
 
@@ -74,10 +71,10 @@ There are 3 type of preprocessing mentioned in the paper, that produce 3 differe
 
 | SNOW          | Catal Model Accuracy | 
 | ------------- |:--------------------:| 
-| MHealth       | 09.00%               |
-| USCHAD        | 13.84%               | 
-| UTDMHAD1_1s   | 05.22%               |
-| UTDMHAD2_1s   | 51.59%               |
+| MHealth       | 93.11%               |
+| USCHAD        | ------               | 
+| UTDMHAD1_1s   | ------               |
+| UTDMHAD2_1s   | ------               |
 | WHARF         | ------               | 
 | WISDM         | ------               |
  
@@ -85,10 +82,10 @@ There are 3 type of preprocessing mentioned in the paper, that produce 3 differe
 
 | LOTO          | Catal Model Accuracy | 
 | ------------- |:--------------------:| 
-| MHealth       | 09.02%               |
-| USCHAD        | 13.85%               | 
-| UTDMHAD1_1s   | 05.24%               |
-| UTDMHAD2_1s   | 50.00%               |
+| MHealth       | 89.62%               |
+| USCHAD        | ------               | 
+| UTDMHAD1_1s   | ------               |
+| UTDMHAD2_1s   | ------               |
 | WHARF         | ------               | 
 | WISDM         | ------               |
 
@@ -96,9 +93,9 @@ There are 3 type of preprocessing mentioned in the paper, that produce 3 differe
 
 | FNOW          | Catal Model Accuracy | 
 | ------------- |:--------------------:| 
-| MHealth       | 08.99%               |
-| USCHAD        | 13.50%               | 
-| UTDMHAD1_1s   | 05.27%               |
-| UTDMHAD2_1s   | 48.04%               |
+| MHealth       | 95.96%               |
+| USCHAD        | ------               | 
+| UTDMHAD1_1s   | ------               |
+| UTDMHAD2_1s   | ------               |
 | WHARF         | ------               | 
 | WISDM         | ------               |
