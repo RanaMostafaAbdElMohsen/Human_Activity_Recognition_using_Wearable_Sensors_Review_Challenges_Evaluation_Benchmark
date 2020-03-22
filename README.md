@@ -61,7 +61,7 @@ There are 3 type of preprocessing mentioned in the paper, that produce 3 differe
 #### Paper Accuracies Obtained with Implementation Existing in Repo
 - With Respect to LOSO DataSet:
 
-| LOSO          | Catal Model Accuracy | 
+| LOSO          | Panwar Model Accuracy | 
 | ------------- |:--------------------:| 
 | MHealth       | 09.01%               |
 | USCHAD        | 14.72%               | 
@@ -72,7 +72,7 @@ There are 3 type of preprocessing mentioned in the paper, that produce 3 differe
 
 - With Respect to SNOW DataSet:
 
-| SNOW          | Catal Model Accuracy | 
+| SNOW          | Panwar Model Accuracy | 
 | ------------- |:--------------------:| 
 | MHealth       | 09.00%               |
 | USCHAD        | 13.84%               | 
@@ -83,7 +83,7 @@ There are 3 type of preprocessing mentioned in the paper, that produce 3 differe
  
 - With Respect to LOTO DataSet:
 
-| LOTO          | Catal Model Accuracy | 
+| LOTO          | Panwar Model Accuracy | 
 | ------------- |:--------------------:| 
 | MHealth       | 09.02%               |
 | USCHAD        | 13.85%               | 
@@ -92,9 +92,9 @@ There are 3 type of preprocessing mentioned in the paper, that produce 3 differe
 | WHARF         | ------               | 
 | WISDM         | ------               |
 
-- With Respect to LOTO DataSet:
+- With Respect to FNOW DataSet:
 
-| FNOW          | Catal Model Accuracy | 
+| FNOW          | Panwar Model Accuracy | 
 | ------------- |:--------------------:| 
 | MHealth       | 08.99%               |
 | USCHAD        | 13.50%               | 
