@@ -59,20 +59,31 @@ https://docs.google.com/document/d/19ORHFY05gM035UpxD-7SD3C9j29edp-UfUTOz3Oifb8/
 
 #### Paper Accuracies Obtained with Implementation Existing in Repo
 
-- With Respect to LOSO DataSet:
+- With Respect to LOSO DataSet with ELM:
 
-| LOSO          | Catal Model Accuracy | 
+| LOSO          | Jian  Model Accuracy | 
 | ------------- |:--------------------:| 
-| MHealth       | ------               |
+| MHealth       | 81.57%               |
 | USCHAD        | ------               | 
-| UTDMHAD1_1s   | ------               |
-| UTDMHAD2_1s   | ------               |
-| WHARF         | ------               | 
+| UTDMHAD1_1s   | 19.37%               |
+| UTDMHAD2_1s   | 50.90%               |
+| WHARF         | 50.52%               | 
+| WISDM         | ------               |
+
+- With Respect to LOSO DataSet without ELM:
+
+| LOSO          | Jian Model Accuracy | 
+| ------------- |:--------------------:| 
+| MHealth       | 78.48%               |
+| USCHAD        | 59.13%               | 
+| UTDMHAD1_1s   | 18.97%               |
+| UTDMHAD2_1s   | 51.17%               |
+| WHARF         | 49.39%               | 
 | WISDM         | ------               |
 
 - With Respect to SNOW DataSet:
 
-| SNOW          | Catal Model Accuracy | 
+| SNOW          | Jian Model Accuracy | 
 | ------------- |:--------------------:| 
 | MHealth       | ------               |
 | USCHAD        | ------               | 
@@ -83,7 +94,7 @@ https://docs.google.com/document/d/19ORHFY05gM035UpxD-7SD3C9j29edp-UfUTOz3Oifb8/
  
 - With Respect to LOTO DataSet:
 
-| LOTO          | Catal Model Accuracy | 
+| LOTO          | Jian Model Accuracy | 
 | ------------- |:--------------------:| 
 | MHealth       | ------               |
 | USCHAD        | ------               | 
@@ -92,9 +103,9 @@ https://docs.google.com/document/d/19ORHFY05gM035UpxD-7SD3C9j29edp-UfUTOz3Oifb8/
 | WHARF         | ------               | 
 | WISDM         | ------               |
 
-- With Respect to LOTO DataSet:
+- With Respect to FNOW DataSet:
 
-| FNOW          | Catal Model Accuracy | 
+| FNOW          | Jian Model Accuracy | 
 | ------------- |:--------------------:| 
 | MHealth       | ------               |
 | USCHAD        | ------               | 
