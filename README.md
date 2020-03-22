@@ -58,7 +58,7 @@ https://docs.google.com/document/d/1I96tZfD0pYkfr3qb4VsUtid2StrkhLovwHx70Vk2KBw/
 #### Paper Accuracies Obtained with Implementation Existing in Repo
 - With Respect to LOSO DataSet:
 
-| LOSO          | Catal Model Accuracy | 
+| LOSO          | Bevilacqua Model Accuracy | 
 | ------------- |:--------------------:| 
 | MHealth       | 85.00%               |
 | USCHAD        | ------               | 
@@ -69,7 +69,7 @@ https://docs.google.com/document/d/1I96tZfD0pYkfr3qb4VsUtid2StrkhLovwHx70Vk2KBw/
 
 - With Respect to SNOW DataSet:
 
-| SNOW          | Catal Model Accuracy | 
+| SNOW          | Bevilacqua Model Accuracy | 
 | ------------- |:--------------------:| 
 | MHealth       | 93.11%               |
 | USCHAD        | ------               | 
@@ -80,7 +80,7 @@ https://docs.google.com/document/d/1I96tZfD0pYkfr3qb4VsUtid2StrkhLovwHx70Vk2KBw/
  
 - With Respect to LOTO DataSet:
 
-| LOTO          | Catal Model Accuracy | 
+| LOTO          | Bevilacqua Model Accuracy | 
 | ------------- |:--------------------:| 
 | MHealth       | 89.62%               |
 | USCHAD        | ------               | 
@@ -89,9 +89,9 @@ https://docs.google.com/document/d/1I96tZfD0pYkfr3qb4VsUtid2StrkhLovwHx70Vk2KBw/
 | WHARF         | ------               | 
 | WISDM         | ------               |
 
-- With Respect to LOTO DataSet:
+- With Respect to FNOW DataSet:
 
-| FNOW          | Catal Model Accuracy | 
+| FNOW          | Bevilacqua Model Accuracy | 
 | ------------- |:--------------------:| 
 | MHealth       | 95.96%               |
 | USCHAD        | ------               | 
