@@ -81,7 +81,18 @@ https://docs.google.com/document/d/19ORHFY05gM035UpxD-7SD3C9j29edp-UfUTOz3Oifb8/
 | WHARF         | 49.39%               | 
 | WISDM         | ------               |
 
-- With Respect to SNOW DataSet:
+- With Respect to SNOW DataSet with ELM:
+
+| SNOW          | Jian Model Accuracy | 
+| ------------- |:--------------------:| 
+| MHealth       | 83.34%               |
+| USCHAD        | ------               | 
+| UTDMHAD1_1s   | ------               |
+| UTDMHAD2_1s   | ------               |
+| WHARF         | ------               | 
+| WISDM         | ------               |
+
+- With Respect to SNOW DataSet without ELM:
 
 | SNOW          | Jian Model Accuracy | 
 | ------------- |:--------------------:| 
@@ -92,7 +103,7 @@ https://docs.google.com/document/d/19ORHFY05gM035UpxD-7SD3C9j29edp-UfUTOz3Oifb8/
 | WHARF         | ------               | 
 | WISDM         | ------               |
  
-- With Respect to LOTO DataSet:
+- With Respect to LOTO DataSet without ELM:
 
 | LOTO          | Jian Model Accuracy | 
 | ------------- |:--------------------:| 
@@ -103,7 +114,29 @@ https://docs.google.com/document/d/19ORHFY05gM035UpxD-7SD3C9j29edp-UfUTOz3Oifb8/
 | WHARF         | ------               | 
 | WISDM         | ------               |
 
-- With Respect to FNOW DataSet:
+- With Respect to LOTO DataSet with ELM:
+
+| LOTO          | Jian Model Accuracy | 
+| ------------- |:--------------------:| 
+| MHealth       | 80.27%               |
+| USCHAD        | ------               | 
+| UTDMHAD1_1s   | 27.46%               |
+| UTDMHAD2_1s   | 48.44%               |
+| WHARF         | 61.92%               | 
+| WISDM         | ------               |
+
+- With Respect to FNOW DataSet with ELM:
+
+| FNOW          | Jian Model Accuracy | 
+| ------------- |:--------------------:| 
+| MHealth       | 62.20%               |
+| USCHAD        | ------               | 
+| UTDMHAD1_1s   | 19.79%               |
+| UTDMHAD2_1s   | 37.46%               |
+| WHARF         | 49.18%               | 
+| WISDM         | ------               |
+
+- With Respect to FNOW DataSet without ELM:
 
 | FNOW          | Jian Model Accuracy | 
 | ------------- |:--------------------:| 
