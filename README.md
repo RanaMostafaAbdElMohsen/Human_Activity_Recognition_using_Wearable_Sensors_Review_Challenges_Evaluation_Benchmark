@@ -87,9 +87,9 @@ https://docs.google.com/document/d/19ORHFY05gM035UpxD-7SD3C9j29edp-UfUTOz3Oifb8/
 | ------------- |:--------------------:| 
 | MHealth       | 83.34%               |
 | USCHAD        | ------               | 
-| UTDMHAD1_1s   | ------               |
-| UTDMHAD2_1s   | ------               |
-| WHARF         | ------               | 
+| UTDMHAD1_1s   | 23.63%               |
+| UTDMHAD2_1s   | 56.06%               |
+| WHARF         | 57.06%               | 
 | WISDM         | ------               |
 
 - With Respect to SNOW DataSet without ELM:
@@ -107,9 +107,9 @@ https://docs.google.com/document/d/19ORHFY05gM035UpxD-7SD3C9j29edp-UfUTOz3Oifb8/
 
 | LOTO          | Jian Model Accuracy | 
 | ------------- |:--------------------:| 
-| MHealth       | ------               |
+| MHealth       | 77.69%               |
 | USCHAD        | ------               | 
-| UTDMHAD1_1s   | ------               |
+| UTDMHAD1_1s   | 24.30%               |
 | UTDMHAD2_1s   | ------               |
 | WHARF         | ------               | 
 | WISDM         | ------               |
@@ -140,9 +140,9 @@ https://docs.google.com/document/d/19ORHFY05gM035UpxD-7SD3C9j29edp-UfUTOz3Oifb8/
 
 | FNOW          | Jian Model Accuracy | 
 | ------------- |:--------------------:| 
-| MHealth       | ------               |
+| MHealth       | 78.77%               |
 | USCHAD        | ------               | 
-| UTDMHAD1_1s   | ------               |
-| UTDMHAD2_1s   | ------               |
-| WHARF         | ------               | 
+| UTDMHAD1_1s   | 22.70%               |
+| UTDMHAD2_1s   | 39.87%               |
+| WHARF         | 44.43%               | 
 | WISDM         | ------               |
