@@ -77,3 +77,13 @@ Accuracies were reported for only 6 activities
 | UTDMHAD2_1s   | 80.32%               |
 | WHARF         | 60.76%               | 
 | WISDM         | 88.84%               |
+
+
+- With Respect to Shoaib DataSet [https://www.utwente.nl/en/eemcs/ps/dataset-folder/activity-recognition-dataset-shoaib.rar]:
+
+| FNOW          | Catal Model Accuracy | 
+| ------------- |:--------------------:| 
+| Arm           | 91.40%               |
+| Belt          | 92.92%               | 
+| Wrist         | 91.63%               |
+| Pocket        | 88.88%               |
