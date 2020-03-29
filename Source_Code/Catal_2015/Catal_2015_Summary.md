@@ -78,10 +78,24 @@ Accuracies were reported for only 6 activities
 | WHARF         | 60.76%               | 
 | WISDM         | 88.84%               |
 
+- With Respect to FUSMPA 2014 DataSet:
+
+| FUSMPA        | Catal Model Accuracy | 
+| ------------- |:--------------------:| 
+| Participant_1 | 100%                 |
+| Participant_2 | 99.98%               | 
+| Participant_3 | 100%                 |
+| Participant_4 | 99.98                |
+| Participant_5 | 99.99%               | 
+| Participant_6 | 100%                 |
+| Participant_7 | 100%                 |
+| Participant_8 | 100%                 |
+| Participant_9 | 100%                 | 
+| Participant_10| 100%                 |
 
 - With Respect to Shoaib DataSet [https://www.utwente.nl/en/eemcs/ps/dataset-folder/activity-recognition-dataset-shoaib.rar]:
 
-| FNOW          | Catal Model Accuracy | 
+| Shoaib         | Catal Model Accuracy | 
 | ------------- |:--------------------:| 
 | Arm           | 91.40%               |
 | Belt          | 92.92%               | 
