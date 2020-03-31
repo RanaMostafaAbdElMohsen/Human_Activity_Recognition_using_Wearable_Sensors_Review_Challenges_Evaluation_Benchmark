@@ -1,148 +1,41 @@
-# Jian Sun et al 2018
-https://www.hindawi.com/journals/js/2018/8580959/
+# HHAR UCI Datasey
+https://archive.ics.uci.edu/ml/datasets/Heterogeneity+Activity+Recognition
 ## Summary
-https://docs.google.com/document/d/19ORHFY05gM035UpxD-7SD3C9j29edp-UfUTOz3Oifb8/edit?usp=sharing
-### About Paper
+
+### About DataSet
 
 #### Background & Info
-- Datset Used: OPPORTUNITY
-- OPPORTUNITY dataset are extremely imbalanced, the NULL 
-  Class accounts for more than 70% of all the data
-- The convolutional neural network assumes that the
-   inputs and outputs of the model are independent from each
-   other,thus, some time information must be included in the input data. Long short-term memory (LSTM) network has been proposed to solve this problem. Use ELM network as fully connected classifier
-- OPPORTUNITY activity recognition dataset is composed of a
-   set of complex human natural activities collected in an environment where rich sensors are installed
-	
-- consider the on-body sensors, including inertial 
-   measurement units and 3-axis accelerometers
-- Each sensor channel is treated as an individual channel, a
-	total of 113 channels. The sampling frequency of these
-	sensors is 30 Hz.
-- OPPORTUNITY dataset contains gestures and postures
-- 18-class classification problem;
+- The data is split into 4 files in total divided by device (phone or watch) and sensor (gyroscope and accelerometer).
+- The files for phones are: Phones_accelerometer.csv, Phones_gyroscope.csv for the accelerometer and gyroscope respectively, and for the Watch_accelerometer.csv, Watch_gyroscope.csv for the accelerometer and gyroscope as well.
+
+- Activities: ‘Biking’, ‘Sitting’, ‘Standing’, ‘Walking’, ‘Stair Up’ and ‘Stair down’.
+- Sensors: Two embedded sensors, i.e., Accelerometer and Gyroscope sampled at the highest frequency possible by the device
+- Devices: 4 smartwatches (2 LG watches, 2 Samsung Galaxy Gears) 8 smartphones (2 Samsung Galaxy S3 mini, 2 Samsung Galaxy S3, 2 LG Nexus 4, 2 Samsung Galaxy S+)
+- Recordings: 9 users currently named: a,b,c,d,e,f,g,h,i consistently across all files.
+
+#### CSV file Structure
+-'Index', 'Arrival_Time', 'Creation_Time', 'x', 'y', 'z', 'User', 'Model', 'Device', 'gt'
+- And the columns have the following values:
+- Index: 		is the row number.
+- Arrival_Time:	The time the measurement arrived to the sensing application
+- Creation_Time	The timestamp the OS attaches to the sample
+- X,y,z		The values provided by the sensor for the three axes, X,y,z
+- User:		The user this sample originates from, the users are named a to i.
+- Model:		The phone/watch model this sample originates from
+- Device:		The specific device this sample is from. They are prefixed with the model name and then the number, e.g., nexus4_1 or nexus4_2.
+- Gt:		The activity the user was performing: bike sit, stand, walk, stairsup, stairsdown and null
 
   
 #### Preprocessing
-- used 0 to fill in missing values of the sensor data
-- each sensor channel was normalized to interval 0, 1
-- used a fixed-length sliding window to segment data
-- The length of the window is 500 ms and the step size is 
-   250 ms
+- Data Used Mobile Phone sensor reading
+- Data Loaded for both files Phones_accelerometer.csv,Phones_gyroscope.csv
+- The both files are merged into one file
+- We apply sliding window overlaping and non Overlapping techniques
+- DataSet Shape for Non-Overalpping (102050, 128, 6) indicating number of Data, Window Size , Number of sensors
+- DataSet Shape for Overalpping (1306247, 10, 6) indicating number of Data, Window Size , Number of sensors
+- DataSet is then stroed as crompressed file NPZ
 
 
 
 
-#### Paper Approach
-- Training  Model :
-	- a learning rate of 0.001		
-	- a decay factor of 0.9
-	
-- evaluate the performance of model based on :
-	- F-measure, it takes into account
-	both the precision and the recall of each class to compute 	the score and can evaluate the model better than the precision
-	
-#### Paper Model architecture
 
-| Layer          | Params               | 
-| -------------  |:--------------------:| 
-| conv2d_1       | (5x1)                |
-| conv2d_2       | (5x1)                |
-| conv2d_3       | (5x1)                | 
-| conv2d_4       | (5x1)                |
-| LSTM           |  128                 |
-| LSTM           |  128                 |
-| ELM/ fullyconn | (num_classes)        | 
-
-
-
-
-#### Paper Accuracies Obtained with Implementation Existing in Repo
-
-- With Respect to LOSO DataSet with ELM:
-
-| LOSO          | Jian  Model Accuracy | 
-| ------------- |:--------------------:| 
-| MHealth       | 81.57%               |
-| USCHAD        | ------               | 
-| UTDMHAD1_1s   | 19.37%               |
-| UTDMHAD2_1s   | 50.90%               |
-| WHARF         | 50.52%               | 
-| WISDM         | ------               |
-
-- With Respect to LOSO DataSet without ELM:
-
-| LOSO          | Jian Model Accuracy | 
-| ------------- |:--------------------:| 
-| MHealth       | 78.48%               |
-| USCHAD        | 59.13%               | 
-| UTDMHAD1_1s   | 18.97%               |
-| UTDMHAD2_1s   | 51.17%               |
-| WHARF         | 49.39%               | 
-| WISDM         | ------               |
-
-- With Respect to SNOW DataSet with ELM:
-
-| SNOW          | Jian Model Accuracy | 
-| ------------- |:--------------------:| 
-| MHealth       | 83.34%               |
-| USCHAD        | ------               | 
-| UTDMHAD1_1s   | 23.63%               |
-| UTDMHAD2_1s   | 56.06%               |
-| WHARF         | 57.06%               | 
-| WISDM         | ------               |
-
-- With Respect to SNOW DataSet without ELM:
-
-| SNOW          | Jian Model Accuracy | 
-| ------------- |:--------------------:| 
-| MHealth       | ------               |
-| USCHAD        | ------               | 
-| UTDMHAD1_1s   | ------               |
-| UTDMHAD2_1s   | ------               |
-| WHARF         | ------               | 
-| WISDM         | ------               |
- 
-- With Respect to LOTO DataSet without ELM:
-
-| LOTO          | Jian Model Accuracy | 
-| ------------- |:--------------------:| 
-| MHealth       | 77.69%               |
-| USCHAD        | ------               | 
-| UTDMHAD1_1s   | 24.30%               |
-| UTDMHAD2_1s   | ------               |
-| WHARF         | ------               | 
-| WISDM         | ------               |
-
-- With Respect to LOTO DataSet with ELM:
-
-| LOTO          | Jian Model Accuracy | 
-| ------------- |:--------------------:| 
-| MHealth       | 80.27%               |
-| USCHAD        | ------               | 
-| UTDMHAD1_1s   | 27.46%               |
-| UTDMHAD2_1s   | 48.44%               |
-| WHARF         | 61.92%               | 
-| WISDM         | ------               |
-
-- With Respect to FNOW DataSet with ELM:
-
-| FNOW          | Jian Model Accuracy | 
-| ------------- |:--------------------:| 
-| MHealth       | 62.20%               |
-| USCHAD        | ------               | 
-| UTDMHAD1_1s   | 19.79%               |
-| UTDMHAD2_1s   | 37.46%               |
-| WHARF         | 49.18%               | 
-| WISDM         | ------               |
-
-- With Respect to FNOW DataSet without ELM:
-
-| FNOW          | Jian Model Accuracy | 
-| ------------- |:--------------------:| 
-| MHealth       | 78.77%               |
-| USCHAD        | ------               | 
-| UTDMHAD1_1s   | 22.70%               |
-| UTDMHAD2_1s   | 39.87%               |
-| WHARF         | 44.43%               | 
-| WISDM         | ------               |
