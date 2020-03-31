@@ -1,42 +1,50 @@
-# HHAR UCI Datasey
-https://archive.ics.uci.edu/ml/datasets/Heterogeneity+Activity+Recognition
+# Opportunity UCI Dataset
+https://archive.ics.uci.edu/ml/datasets/OPPORTUNITY+Activity+Recognition
 ## Summary
+
+The OPPORTUNITY Dataset for Human Activity Recognition from Wearable, Object, and Ambient Sensors is a dataset devised to benchmark human activity recognition algorithms 
 
 ### About DataSet
 
 #### Background & Info
-- The data is split into 4 files in total divided by device (phone or watch) and sensor (gyroscope and accelerometer).
-- The files for phones are: Phones_accelerometer.csv, Phones_gyroscope.csv for the accelerometer and gyroscope respectively, and for the Watch_accelerometer.csv, Watch_gyroscope.csv for the accelerometer and gyroscope as well.
+- The dataset comprises the readings of motion sensors recorded while users executed typical daily activities:
+	- Body-worn sensors: 7 inertial measurement units, 12 3D acceleration sensors, 4 3D localization information
+	- Object sensors: 12 objects with 3D acceleration and 2D rate of turn
+	- Ambient sensors: 13 switches and 8 3D acceleration sensors
+	- Recordings: 4 users, 6 runs per users. Of these, 5 are Activity of Daily Living runs characterized by a natural execution of 
+	  daily activities. The 6th run is a "drill" run, where users execute a scripted sequence of activities
+	- Annotations/classes: the activities of the user in the scenario are annotated on different levels: "modes of locomotion" 
+	  classes; low-level actions relating 13 actions to 23 objects; 17 mid-level gesture classes; and 5 high-level activity classes
+-  Modes of locomotion:
+	- Walk
+	- Sit
+	- Stand
+	- Lie
+	- NULL
+-  Modes of Gesture:
+	- Open Dishwasher
+	- Open Drawer1
+	- Open Drawer2
+	- Open Drawer3
+	- Open Fridge
+	- Open Door1
+	- Open Door2
+	- Move Cup
+	- Close Fridge
+	- Close Door1
+	- Close Door2
+	- Clean Table
+	- NULL
 
-- Activities: ‘Biking’, ‘Sitting’, ‘Standing’, ‘Walking’, ‘Stair Up’ and ‘Stair down’.
-- Sensors: Two embedded sensors, i.e., Accelerometer and Gyroscope sampled at the highest frequency possible by the device
-- Devices: 4 smartwatches (2 LG watches, 2 Samsung Galaxy Gears) 8 smartphones (2 Samsung Galaxy S3 mini, 2 Samsung Galaxy S3, 2 LG Nexus 4, 2 Samsung Galaxy S+)
-- Recordings: 9 users currently named: a,b,c,d,e,f,g,h,i consistently across all files.
 
-#### CSV file Structure
--'Index', 'Arrival_Time', 'Creation_Time', 'x', 'y', 'z', 'User', 'Model', 'Device', 'gt'
-- And the columns have the following values:
-- Index: 		is the row number.
-- Arrival_Time:	The time the measurement arrived to the sensing application
-- Creation_Time	The timestamp the OS attaches to the sample
-- X,y,z		The values provided by the sensor for the three axes, X,y,z
-- User:		The user this sample originates from, the users are named a to i.
-- Model:		The phone/watch model this sample originates from
-- Device:		The specific device this sample is from. They are prefixed with the model name and then the number, e.g., nexus4_1 or nexus4_2.
-- Gt:		The activity the user was performing: bike sit, stand, walk, stairsup, stairsdown and null
+#### file Structure
+- Consisit of multiple files  ADL runs for locomotio, Drill runs for gesture
 
   
-#### Preprocessing
-- Data Used Mobile Phone sensor reading
-- Data Loaded for both files Phones_accelerometer.csv,Phones_gyroscope.csv
-- The both files are merged into one file
-- We apply sliding window overlaping and non Overlapping techniques
-- DataSet Shape for Non-Overalpping (102050, 128, 6) indicating number of Data, Window Size , Number of sensors
-- DataSet Shape for Overalpping (1306247, 10, 6) indicating number of Data, Window Size , Number of sensors
-- DataSet is then stroed as crompressed file NPZ
+
 
 #### Proceesed Dataset
-https://drive.google.com/open?id=11gDiVVr2U34idEz-ukXkWKFavZw84chJ
+https://drive.google.com/drive/folders/1km7nnYsNn2g0CHTbxATrqU8dBuOckSkM?usp=sharing
 
 
 
