@@ -78,7 +78,7 @@ Accuracies were reported for only 6 activities
 | WHARF         | 60.76%               | 
 | WISDM         | 88.84%               |
 
-- With Respect to FUSMPA 2014 DataSet:
+- With Respect to FUSMPA 2014 DataSet [ 80% Train -20% Test per participant ]:
 
 | FUSMPA        | Catal Model Accuracy | 
 | ------------- |:--------------------:| 
@@ -92,6 +92,13 @@ Accuracies were reported for only 6 activities
 | Participant_8 | 100%                 |
 | Participant_9 | 100%                 | 
 | Participant_10| 100%                 |
+
+
+- With Respect to FUSMPA 2014 DataSet [LeaveOneOut Strategy as Test Dataset]:
+
+| FUSMPA  LeaveOneOut | Catal Model Accuracy | 
+| ------------------- |:--------------------:| 
+| LeaveOneOut         | 96.02%               |
 
 - With Respect to Shoaib DataSet [https://www.utwente.nl/en/eemcs/ps/dataset-folder/activity-recognition-dataset-shoaib.rar]:
 
