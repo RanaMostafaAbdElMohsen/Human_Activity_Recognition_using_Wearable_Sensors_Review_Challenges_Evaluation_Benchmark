@@ -28,9 +28,9 @@ There are 6 important features mentioned in the paper:
 
 #### Paper Approach
 Majority Voting Between 3 classical classifiers
-1- J48 Decision Tree Algorithm
-2- Logistic Regression
-3- MLP
+1. J48 Decision Tree Algorithm
+2. Logistic Regression
+3. MLP
 Accuracies were reported for only 6 activities
 
 #### Paper Accuracies Obtained with Implementation Existing in Repo
@@ -103,8 +103,14 @@ Accuracies were reported for only 6 activities
 - With Respect to Shoaib DataSet [https://www.utwente.nl/en/eemcs/ps/dataset-folder/activity-recognition-dataset-shoaib.rar]:
 
 | Shoaib         | Catal Model Accuracy | 
+| ------------- |:---------------------:| 
+| Arm           | 91.40%                |
+| Belt          | 92.92%                | 
+| Wrist         | 91.63%                |
+| Pocket        | 88.88%                |
+
+- With Respect to Opportunity DataSet
+
+| Opportunity   | Catal Model Accuracy | 
 | ------------- |:--------------------:| 
-| Arm           | 91.40%               |
-| Belt          | 92.92%               | 
-| Wrist         | 91.63%               |
-| Pocket        | 88.88%               |
+| Opportunity   | 85.45%               |
