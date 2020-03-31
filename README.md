@@ -35,6 +35,9 @@ https://archive.ics.uci.edu/ml/datasets/Heterogeneity+Activity+Recognition
 - DataSet Shape for Overalpping (1306247, 10, 6) indicating number of Data, Window Size , Number of sensors
 - DataSet is then stroed as crompressed file NPZ
 
+#### Proceesed Dataset
+https://drive.google.com/open?id=11gDiVVr2U34idEz-ukXkWKFavZw84chJ
+
 
 
 
