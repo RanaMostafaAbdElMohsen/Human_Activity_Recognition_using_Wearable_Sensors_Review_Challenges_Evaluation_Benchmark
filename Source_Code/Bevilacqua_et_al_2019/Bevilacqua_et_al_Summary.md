@@ -99,3 +99,10 @@ https://docs.google.com/document/d/1I96tZfD0pYkfr3qb4VsUtid2StrkhLovwHx70Vk2KBw/
 | UTDMHAD2_1s   | ------               |
 | WHARF         | ------               | 
 | WISDM         | ------               |
+
+
+- With Repect With HHAR Non-Overlapping Slidding Window:
+   - Couldn't be trained due to Dataset size with Model
+
+- With Repect With HHAR Overlapping Slidding Window:
+	- Couldn't be trained due to Dataset size with Model
