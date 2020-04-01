@@ -114,3 +114,10 @@ Accuracies were reported for only 6 activities
 | Opportunity   | Catal Model Accuracy | 
 | ------------- |:--------------------:| 
 | Opportunity   | 85.45%               |
+
+- With Respect to Heterognity DataSet
+
+| HHAR                 | Catal Model Accuracy | 
+| -------------------- |:--------------------:| 
+| HHAR Overlapping     | 23.69%               |
+| HHAR Non-Overlapping | 28.13%               |
