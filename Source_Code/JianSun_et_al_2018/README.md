@@ -147,7 +147,12 @@ https://docs.google.com/document/d/19ORHFY05gM035UpxD-7SD3C9j29edp-UfUTOz3Oifb8/
 | WHARF         | 44.43%               | 
 | WISDM         | ------               |
 
-- With Repect With HHAR Non-Overlapping Slidding Window:
+- With Repect to HHAR Non-Overlapping Slidding Window:
 Couldn't be trained due to Dataset size with Model
 
-- With Repect With HHAR Overlapping Slidding Window: haven't finished training yey but you can say average is 20%
+- With Repect to HHAR Overlapping Slidding Window: haven't finished training yey but you can say average is 20%
+
+- With Respect to Opportunity dataset with ELM:
+	- 83.48%
+- With Respect to Opportunity dataset without ELM:
+	- 83.21%	
