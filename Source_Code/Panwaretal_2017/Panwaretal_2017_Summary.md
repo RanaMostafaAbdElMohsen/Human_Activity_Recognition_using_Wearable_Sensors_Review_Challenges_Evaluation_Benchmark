@@ -103,10 +103,10 @@ There are 3 type of preprocessing mentioned in the paper, that produce 3 differe
 | WHARF         | ------               | 
 | WISDM         | ------               |
 
-- With Repect to HHAR Non-Overlapping Slidding Window:
+- With Repect to HHAR Non-Overlapping Sliding Window:
 Couldn't be trained due to Dataset size with Model
 
 - With Repect to HHAR Overlapping Slidding Window: 18.80%
 
 - With Repect to Opportunity: 84.22%
- 
+
