@@ -28,6 +28,7 @@ There are 6 important features mentioned in the paper:
 
 #### Paper Approach
 Majority Voting Between 3 classical classifiers
+
 1. J48 Decision Tree Algorithm
 2. Logistic Regression
 3. MLP
@@ -78,6 +79,7 @@ Accuracies were reported for only 6 activities
 | WHARF         | 60.76%               | 
 | WISDM         | 88.84%               |
 
+
 - With Respect to FUSMPA 2014 DataSet [ 80% Train -20% Test per participant ]:
 
 | FUSMPA        | Catal Model Accuracy | 
@@ -121,3 +123,4 @@ Accuracies were reported for only 6 activities
 | -------------------- |:--------------------:| 
 | HHAR Overlapping     | 23.69%               |
 | HHAR Non-Overlapping | 28.13%               |
+
