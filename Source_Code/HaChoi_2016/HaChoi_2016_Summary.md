@@ -32,7 +32,7 @@
 | UTDMHAD1_1s   | -------              |
 | UTDMHAD2_1s   | -------              |
 | WHARF         | -------              | 
-| WISDM         | -------              |
+| WISDM         | 59.28%               |
 
 - With Respect to SNOW DataSet:
 
@@ -43,7 +43,7 @@
 | UTDMHAD1_1s   | -------              |
 | UTDMHAD2_1s   | -------              |
 | WHARF         | -------              | 
-| WISDM         | -------              |
+| WISDM         | 81.81%               |
  
 - With Respect to LOTO DataSet:
 
@@ -54,9 +54,9 @@
 | UTDMHAD1_1s   | -------              |
 | UTDMHAD2_1s   | -------              |
 | WHARF         | -------              | 
-| WISDM         | -------              |
+| WISDM         | 76.42%               |
 
-- With Respect to LOTO DataSet:
+- With Respect to FNOW DataSet:
 
 | FNOW          | Catal Model Accuracy | 
 | ------------- |:--------------------:| 
@@ -65,4 +65,4 @@
 | UTDMHAD1_1s   | -------              |
 | UTDMHAD2_1s   | -------              |
 | WHARF         | -------              | 
-| WISDM         | -------              |
+| WISDM         | 77.07%               |
