@@ -31,7 +31,7 @@
 | USCHAD        | -------              | 
 | UTDMHAD1_1s   | -------              |
 | UTDMHAD2_1s   | -------              |
-| WHARF         | -------              | 
+| WHARF         | 59.13%               | 
 | WISDM         | 59.28%               |
 
 - With Respect to SNOW DataSet:
@@ -42,7 +42,7 @@
 | USCHAD        | -------              | 
 | UTDMHAD1_1s   | -------              |
 | UTDMHAD2_1s   | -------              |
-| WHARF         | -------              | 
+| WHARF         | 67.36%               | 
 | WISDM         | 81.81%               |
  
 - With Respect to LOTO DataSet:
@@ -53,7 +53,7 @@
 | USCHAD        | -------              | 
 | UTDMHAD1_1s   | -------              |
 | UTDMHAD2_1s   | -------              |
-| WHARF         | -------              | 
+| WHARF         | 64.68%               | 
 | WISDM         | 76.42%               |
 
 - With Respect to FNOW DataSet:
@@ -64,5 +64,5 @@
 | USCHAD        | -------              | 
 | UTDMHAD1_1s   | -------              |
 | UTDMHAD2_1s   | -------              |
-| WHARF         | -------              | 
+| WHARF         | 61.70%               | 
 | WISDM         | 77.07%               |
