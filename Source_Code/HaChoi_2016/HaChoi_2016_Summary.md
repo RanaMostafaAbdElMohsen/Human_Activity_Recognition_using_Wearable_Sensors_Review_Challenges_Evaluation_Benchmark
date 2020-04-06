@@ -30,7 +30,7 @@
 | MHealth       | 76.18%               |
 | USCHAD        | -------              | 
 | UTDMHAD1_1s   | -------              |
-| UTDMHAD2_1s   | -------              |
+| UTDMHAD2_1s   | 59.58%               |
 | WHARF         | 59.13%               | 
 | WISDM         | 59.28%               |
 
@@ -41,7 +41,7 @@
 | MHealth       | 76.66%               |
 | USCHAD        | -------              | 
 | UTDMHAD1_1s   | -------              |
-| UTDMHAD2_1s   | -------              |
+| UTDMHAD2_1s   | 61.67%               |
 | WHARF         | 67.36%               | 
 | WISDM         | 81.81%               |
  
@@ -52,7 +52,7 @@
 | MHealth       | 84.77%               |
 | USCHAD        | -------              | 
 | UTDMHAD1_1s   | -------              |
-| UTDMHAD2_1s   | -------              |
+| UTDMHAD2_1s   | 63.87%               |
 | WHARF         | 64.68%               | 
 | WISDM         | 76.42%               |
 
@@ -63,6 +63,6 @@
 | MHealth       | 79.85%               |
 | USCHAD        | -------              | 
 | UTDMHAD1_1s   | -------              |
-| UTDMHAD2_1s   | -------              |
+| UTDMHAD2_1s   | 57.94%               |
 | WHARF         | 61.70%               | 
 | WISDM         | 77.07%               |
