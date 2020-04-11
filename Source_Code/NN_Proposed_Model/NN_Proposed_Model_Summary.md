@@ -1,21 +1,7 @@
-# Improved Catal 2015 Paper 
+# Neural Networks Proposed Architecture 
 - Added on Contribution
 
 ## Summary
-
-### About Paper
-
-#### Background & Info
-- Sensor : Accelerometer 
-- Classes : 12 Classes including walking, jogging, upstairs, downstairs & standing, etc...
-- Acceleraton recorded in 3 axis:
-  - x-axis : horizontal motion of leg
-  - y-axis : upward / downward motion
-  - z-axis : forward acceleration
-- 2 Activity Modes:
-  - Ascending -> small peaks for y-axis and z-axis
-  - Descending -> small peaks reported for y-axis
-  - As summary we are interested in y-axis and z-axis
   
 #### Features Extraction
 There are 6 important features mentioned in Catal paper:
@@ -26,55 +12,56 @@ There are 6 important features mentioned in Catal paper:
 5. Time Between Peaks TBP
 6. Binned Distribution
 
-#### Improved Approach
-Majority Voting Between 3 classical classifiers
-1. J48 Decision Tree Algorithm
-2. Logistic Regression
-3. SVM
-Accuracies were reported for only 6 activities
+#### Approach
+Catal Feature Extraction + Neural Network Approach
+
+3 Hidden layers :
+128 Neurons
+64 Neurons
+32 Neurons
 
 #### Paper Accuracies Obtained with Implementation Existing in Repo
 - With Respect to LOSO DataSet:
 
 | LOSO          | Catal Model Accuracy | 
 | ------------- |:--------------------:| 
-| MHealth       | 96.64%               |
-| USCHAD        | 75.64%               | 
-| UTDMHAD1_1s   | 49.10%               |
-| UTDMHAD2_1s   | 74.92%               |
-| WHARF         | 49.69%               | 
-| WISDM         | 80.10%               |
+| MHealth       | 100.0%               |
+| USCHAD        | 99.85%               | 
+| UTDMHAD1_1s   | 99.05%               |
+| UTDMHAD2_1s   | 99.56%               |
+| WHARF         | 94.19%               | 
+| WISDM         | 99.90%               |
 
 - With Respect to SNOW DataSet:
 
 | SNOW          | Catal Model Accuracy | 
 | ------------- |:--------------------:| 
 | MHealth       | 100.0%               |
-| USCHAD        | 90.92%               | 
-| UTDMHAD1_1s   | 51.10%               |
-| UTDMHAD2_1s   | 82.80%               |
-| WHARF         | 68.89%               | 
-| WISDM         | 90.08%               |
+| USCHAD        | 99.75%               | 
+| UTDMHAD1_1s   | 96.79%               |
+| UTDMHAD2_1s   | 98.86%               |
+| WHARF         | 93.99%               | 
+| WISDM         | 99.78%               |
  
 - With Respect to LOTO DataSet:
 
 | LOTO          | Catal Model Accuracy | 
 | ------------- |:--------------------:| 
-| MHealth       | 95.16%               |
-| USCHAD        | 87.31%               | 
-| UTDMHAD1_1s   | 49.60%               |
-| UTDMHAD2_1s   | 82.33%               |
-| WHARF         | 65.49%               | 
-| WISDM         | 80.15%               |
+| MHealth       | 100.0%               |
+| USCHAD        | 98.61%               | 
+| UTDMHAD1_1s   | 96.90%               |
+| UTDMHAD2_1s   | 99.91%               |
+| WHARF         | 95.63%               | 
+| WISDM         | 99.95%               |
 
 - With Respect to FNOW DataSet:
 
 | FNOW          | Catal Model Accuracy | 
 | ------------- |:--------------------:| 
-| MHealth       | 99.77%               |
-| USCHAD        | 88.92%               | 
-| UTDMHAD1_1s   | 49.01%               |
-| UTDMHAD2_1s   | 79.18%               |
-| WHARF         | 62.71%               | 
-| WISDM         | 88.47%               |
+| MHealth       | 100.0%               |
+| USCHAD        | 98.85%               | 
+| UTDMHAD1_1s   | 99.61%               |
+| UTDMHAD2_1s   | 100.0%               |
+| WHARF         | 95.01%               | 
+| WISDM         | 99.20%               |
 
