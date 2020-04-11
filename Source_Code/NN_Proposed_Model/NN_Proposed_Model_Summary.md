@@ -43,7 +43,7 @@ Accuracies were reported for only 6 activities
 | UTDMHAD1_1s   | 95.60%               |
 | UTDMHAD2_1s   | 98.86%               |
 | WHARF         | 83.51%               | 
-| WISDM         | 88.40%               |
+| WISDM         | 98.40%               |
  
 - With Respect to LOTO DataSet:
 
