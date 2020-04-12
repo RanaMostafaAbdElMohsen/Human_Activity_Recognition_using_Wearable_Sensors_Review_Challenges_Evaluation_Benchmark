@@ -27,8 +27,8 @@ Catal Feature Extraction + Neural Network Approach
 | ------------- |:--------------------:| 
 | MHealth       | 100.0%               |
 | USCHAD        | 99.85%               | 
-| UTDMHAD1_1s   | 99.05%               |
-| UTDMHAD2_1s   | 99.56%               |
+| UTDMHAD1_1s   | 100.0%               |
+| UTDMHAD2_1s   | 100.0%               |
 | WHARF         | 99.33%               | 
 | WISDM         | 99.90%               |
 
@@ -38,8 +38,8 @@ Catal Feature Extraction + Neural Network Approach
 | ------------- |:--------------------:| 
 | MHealth       | 100.0%               |
 | USCHAD        | 99.75%               | 
-| UTDMHAD1_1s   | 96.79%               |
-| UTDMHAD2_1s   | 98.86%               |
+| UTDMHAD1_1s   | 100.0%               |
+| UTDMHAD2_1s   | 100.0%               |
 | WHARF         | 98.51%               | 
 | WISDM         | 99.78%               |
  
@@ -49,8 +49,8 @@ Catal Feature Extraction + Neural Network Approach
 | ------------- |:--------------------:| 
 | MHealth       | 100.0%               |
 | USCHAD        | 99.13%               | 
-| UTDMHAD1_1s   | 96.90%               |
-| UTDMHAD2_1s   | 99.91%               |
+| UTDMHAD1_1s   | 99.92%               |
+| UTDMHAD2_1s   | 100.0%               |
 | WHARF         | 98.55%               | 
 | WISDM         | 99.95%               |
 
@@ -60,7 +60,7 @@ Catal Feature Extraction + Neural Network Approach
 | ------------- |:--------------------:| 
 | MHealth       | 100.0%               |
 | USCHAD        | 99.85%               | 
-| UTDMHAD1_1s   | 99.61%               |
+| UTDMHAD1_1s   | 100.0%               |
 | UTDMHAD2_1s   | 100.0%               |
 | WHARF         | 99.53%               | 
 | WISDM         | 99.20%               |
