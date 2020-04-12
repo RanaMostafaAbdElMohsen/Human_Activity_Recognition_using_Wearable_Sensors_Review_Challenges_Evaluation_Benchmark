@@ -27,9 +27,9 @@ Catal Feature Extraction + Neural Network Approach
 | ------------- |:--------------------:| 
 | MHealth       | 100.0%               |
 | USCHAD        | 99.85%               | 
-| UTDMHAD1_1s   | 99.05%               |
-| UTDMHAD2_1s   | 99.56%               |
-| WHARF         | 94.19%               | 
+| UTDMHAD1_1s   | 100.0%               |
+| UTDMHAD2_1s   | 100.0%               |
+| WHARF         | 99.33%               | 
 | WISDM         | 99.90%               |
 
 - With Respect to SNOW DataSet:
@@ -38,9 +38,9 @@ Catal Feature Extraction + Neural Network Approach
 | ------------- |:--------------------:| 
 | MHealth       | 100.0%               |
 | USCHAD        | 99.75%               | 
-| UTDMHAD1_1s   | 96.79%               |
-| UTDMHAD2_1s   | 98.86%               |
-| WHARF         | 93.99%               | 
+| UTDMHAD1_1s   | 100.0%               |
+| UTDMHAD2_1s   | 100.0%               |
+| WHARF         | 98.51%               | 
 | WISDM         | 99.78%               |
  
 - With Respect to LOTO DataSet:
@@ -48,10 +48,10 @@ Catal Feature Extraction + Neural Network Approach
 | LOTO          | Catal Model Accuracy | 
 | ------------- |:--------------------:| 
 | MHealth       | 100.0%               |
-| USCHAD        | 98.61%               | 
-| UTDMHAD1_1s   | 96.90%               |
-| UTDMHAD2_1s   | 99.91%               |
-| WHARF         | 95.63%               | 
+| USCHAD        | 99.13%               | 
+| UTDMHAD1_1s   | 99.92%               |
+| UTDMHAD2_1s   | 100.0%               |
+| WHARF         | 98.55%               | 
 | WISDM         | 99.95%               |
 
 - With Respect to FNOW DataSet:
@@ -59,9 +59,9 @@ Catal Feature Extraction + Neural Network Approach
 | FNOW          | Catal Model Accuracy | 
 | ------------- |:--------------------:| 
 | MHealth       | 100.0%               |
-| USCHAD        | 98.85%               | 
-| UTDMHAD1_1s   | 99.61%               |
+| USCHAD        | 99.85%               | 
+| UTDMHAD1_1s   | 100.0%               |
 | UTDMHAD2_1s   | 100.0%               |
-| WHARF         | 95.01%               | 
+| WHARF         | 99.53%               | 
 | WISDM         | 99.20%               |
 
