@@ -23,7 +23,7 @@ Catal Feature Extraction + Neural Network Approach
 #### Paper Accuracies Obtained with Implementation Existing in Repo
 - With Respect to LOSO DataSet:
 
-| LOSO          | Catal Model Accuracy | 
+| LOSO          | NN Accuracy          | 
 | ------------- |:--------------------:| 
 | MHealth       | 100.0%               |
 | USCHAD        | 99.85%               | 
@@ -34,7 +34,7 @@ Catal Feature Extraction + Neural Network Approach
 
 - With Respect to SNOW DataSet:
 
-| SNOW          | Catal Model Accuracy | 
+| SNOW          | NN Accuracy          | 
 | ------------- |:--------------------:| 
 | MHealth       | 100.0%               |
 | USCHAD        | 99.75%               | 
@@ -45,7 +45,7 @@ Catal Feature Extraction + Neural Network Approach
  
 - With Respect to LOTO DataSet:
 
-| LOTO          | Catal Model Accuracy | 
+| LOTO          | NN Accuracy          | 
 | ------------- |:--------------------:| 
 | MHealth       | 100.0%               |
 | USCHAD        | 99.13%               | 
@@ -56,7 +56,7 @@ Catal Feature Extraction + Neural Network Approach
 
 - With Respect to FNOW DataSet:
 
-| FNOW          | Catal Model Accuracy | 
+| FNOW          | NN Accuracy          | 
 | ------------- |:--------------------:| 
 | MHealth       | 100.0%               |
 | USCHAD        | 99.85%               | 
