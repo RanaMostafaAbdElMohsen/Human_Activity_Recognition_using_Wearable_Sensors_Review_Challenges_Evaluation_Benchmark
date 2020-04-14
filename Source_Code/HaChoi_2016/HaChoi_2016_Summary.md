@@ -25,7 +25,7 @@
 #### Paper Accuracies Obtained with Implementation Existing in Repo
 - With Respect to LOSO DataSet:
 
-| LOSO          | Catal Model Accuracy | 
+| LOSO          | HaChoi Model Accuracy| 
 | ------------- |:--------------------:| 
 | MHealth       | 76.18%               |
 | USCHAD        | -------              | 
@@ -36,7 +36,7 @@
 
 - With Respect to SNOW DataSet:
 
-| SNOW          | Catal Model Accuracy | 
+| SNOW          | HaChoi Model Accuracy| 
 | ------------- |:--------------------:| 
 | MHealth       | 76.66%               |
 | USCHAD        | -------              | 
@@ -47,7 +47,7 @@
  
 - With Respect to LOTO DataSet:
 
-| LOTO          | Catal Model Accuracy | 
+| LOTO          | HaChoi Model Accuracy| 
 | ------------- |:--------------------:| 
 | MHealth       | 84.77%               |
 | USCHAD        | -------              | 
@@ -58,7 +58,7 @@
 
 - With Respect to FNOW DataSet:
 
-| FNOW          | Catal Model Accuracy | 
+| FNOW          | HaChoi Model Accuracy| 
 | ------------- |:--------------------:| 
 | MHealth       | 79.85%               |
 | USCHAD        | -------              | 
