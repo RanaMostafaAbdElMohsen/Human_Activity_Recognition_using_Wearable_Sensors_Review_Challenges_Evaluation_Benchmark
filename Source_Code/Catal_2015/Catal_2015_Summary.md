@@ -65,8 +65,8 @@ Accuracies were reported for only 6 activities
 | USCHAD        | 87.36%               | 
 | UTDMHAD1_1s   | 47.96%               |
 | UTDMHAD2_1s   | 80.35%               |
-| WHARF         | 66.42%               | 
-| WISDM         | 63.87%               |
+| WHARF         | 63.87%               | 
+| WISDM         | 80.11%               |
 
 - With Respect to LOTO DataSet:
 
