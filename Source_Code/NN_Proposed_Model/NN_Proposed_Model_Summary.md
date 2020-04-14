@@ -52,7 +52,7 @@ Catal Feature Extraction + Neural Network Approach
 | UTDMHAD1_1s   | 99.92%               |  71.09%   |
 | UTDMHAD2_1s   | 100.0%               |  87.87%   |
 | WHARF         | 98.55%               |  71.29%   |
-| WISDM         | 99.95%               |  74.73%   |
+| WISDM         | 99.95%               |  77.54%   |
 
 - With Respect to FNOW DataSet:
 
