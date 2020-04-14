@@ -27,7 +27,7 @@
 
 | LOSO          | HaChoi Model Accuracy| 
 | ------------- |:--------------------:| 
-| MHealth       | 76.18%               |
+| MHealth       | 75.69%               |
 | USCHAD        | -------              | 
 | UTDMHAD1_1s   | 19.49%               |
 | UTDMHAD2_1s   | 59.58%               |
@@ -38,18 +38,18 @@
 
 | SNOW          | HaChoi Model Accuracy| 
 | ------------- |:--------------------:| 
-| MHealth       | 76.66%               |
+| MHealth       | 84.77%               |
 | USCHAD        | -------              | 
 | UTDMHAD1_1s   | 22.67%               |
 | UTDMHAD2_1s   | 61.67%               |
-| WHARF         | 67.36%               | 
+| WHARF         | 68.95%               | 
 | WISDM         | 81.81%               |
  
 - With Respect to LOTO DataSet:
 
 | LOTO          | HaChoi Model Accuracy| 
 | ------------- |:--------------------:| 
-| MHealth       | 84.77%               |
+| MHealth       | 76.66%               |
 | USCHAD        | -------              | 
 | UTDMHAD1_1s   | 21.46%               |
 | UTDMHAD2_1s   | 63.87%               |
