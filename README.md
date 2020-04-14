@@ -10,4 +10,5 @@ This is a Human Activity Recognition repository intended for computer vision cou
 - Bevilacqua et al 2019 with Doi : https://arxiv.org/pdf/1906.01935.pdf
 - HaChoi Paper 2016 with Doi : https://doi.org/10.1109/IJCNN.2016.7727224
 - Parental 2017 with Doi : https://www.ncbi.nlm.nih.gov/pubmed/29060391
+- JanSun 2018 with Doi : https://www.hindawi.com/journals/js/2018/8580959/
 
