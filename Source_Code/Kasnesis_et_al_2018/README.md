@@ -1,5 +1,5 @@
-# Jianguang Huang et al 2020
-https://ieeexplore.ieee.org/abstract/document/9043535
+# Kasnesis et al al 2018
+https://arxiv.org/abs/1811.00170
 ## Summary
 
 ### About Paper
@@ -19,8 +19,6 @@ https://ieeexplore.ieee.org/abstract/document/9043535
 	   sliding window is 128.
 	- The length of the sliding window for the OPPORTUNITY 
 	   dataset is chosen to be 24   
-
-
 
 
 
