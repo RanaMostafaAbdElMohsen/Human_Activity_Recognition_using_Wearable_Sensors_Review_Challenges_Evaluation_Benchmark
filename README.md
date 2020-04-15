@@ -19,7 +19,7 @@ This is a Human Activity Recognition repository intended for computer vision cou
 11. Our NN Contribution : NN_KFolds + NN_PCA
 
 ## Paper Findings
-|      |               | Bevil | Catal  | David  | HaChoi | Jiang  | JianSun | JianSun(E) | Kas  | Ling | Pan  |NNKFolds
+|      |               | Bevil | Catal  | David  | HaChoi | Jiang  | JianSun | JianSun(E) | Kas  | Ling | Pan  |
 |------| ------------- |:-----:|:------:|:-------|:-------|:------:|:-------:|:----------:|:----:|:----:|:----:|
 | LOSO | MHealth       | 85.00%| 95.87% | 91.78% | 75.69% | 93.81% | 78.48%  |  81.57%    |93.81%|92.05%|09.01%|
 | LOSO | USCHAD        | ------| 74.62% | ------ | ------ | ------ | 59.13%  |  ------    |------|------|14.72%|
