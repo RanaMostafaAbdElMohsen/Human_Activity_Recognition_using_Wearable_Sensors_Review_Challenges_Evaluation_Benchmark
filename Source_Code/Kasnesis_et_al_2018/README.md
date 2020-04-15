@@ -55,7 +55,7 @@ https://arxiv.org/abs/1811.00170
 
 - With Respect to LOSO DataSet :
 
-| LOSO          | Jianguang Model Accuracy | 
+| LOSO          | Kasnesis Model Accuracy  | 
 | ------------- |:--------------------:	   | 
 | MHealth       | 93.81%                   |
 | USCHAD        | ------                   | 
@@ -68,7 +68,7 @@ https://arxiv.org/abs/1811.00170
 
 - With Respect to SNOW DataSet :
 
-| SNOW          | Jianguang Model Accuracy | 
+| SNOW          | Kasnesis Model Accuracy  | 
 | ------------- |:--------------------:	   | 
 | MHealth       | 99.96%                   |
 | USCHAD        | ------                   | 
@@ -80,7 +80,7 @@ https://arxiv.org/abs/1811.00170
 
 - With Respect to LOTO DataSet :
 
-| LOTO          | Jianguang Model Accuracy | 
+| LOTO          | Kasnesis Model Accuracy  | 
 | ------------- |:--------------------:	   | 
 | MHealth       | 87.89%                   |
 | USCHAD        | 90.94%                   | 
@@ -93,7 +93,7 @@ https://arxiv.org/abs/1811.00170
 
 - With Respect to FNOW DataSet :
 
-| FNOW          | Jianguang Model Accuracy | 
+| FNOW          | Kasnesis Model Accuracy  | 
 | ------------- |:--------------------:	   | 
 | MHealth       | 99.70%                   |
 | USCHAD        | 91.55%                   | 
