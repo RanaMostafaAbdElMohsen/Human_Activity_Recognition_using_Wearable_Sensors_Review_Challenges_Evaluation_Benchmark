@@ -1,4 +1,4 @@
-# Kasnesis et al al 2018
+# Kasnesis et al 2018
 https://arxiv.org/abs/1811.00170
 ## Summary
 
