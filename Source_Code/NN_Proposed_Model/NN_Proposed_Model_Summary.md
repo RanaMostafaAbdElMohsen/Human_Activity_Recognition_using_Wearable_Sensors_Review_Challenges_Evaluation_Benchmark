@@ -65,3 +65,6 @@ Catal Feature Extraction + Neural Network Approach
 | WHARF         | 99.53%               |   69.27%  |  63.33%     |     65.02%     |   62.34%         |    66.15%     |  69.82%     |   67.84%    |
 | WISDM         | 99.20%               |   95.80%  |  91.96%     |     92.68%     |   91.90%         |    93.34%     |   95.45%    |   94.73%    |
 
+For Opportunity Dataset:
+NN_Proposed_1  : 86.24%
+NN_Proposed_2  : 85.78%
