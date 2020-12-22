@@ -29,7 +29,6 @@ Recent approaches implemented, trained and re-evaluated alongside our hybrid app
 6. OPPORTUNITY
 
 ### Supported Checklist Temporal Window Generation Technique for datasets
-
 ![image](Images/Checklist_Supported_Temporal_Window_Generation_Technique_Datasets.PNG?raw=true "Title")
 
 Datasets Google drive link with supported Temporal Window Generation can be accessed through this [link](https://drive.google.com/drive/folders/1iEx-9qrV3sptYqKlR36nPg1fCjC2JzPe?usp=sharing)
