@@ -57,6 +57,7 @@ In this experiment, we investigated the effect of different hyper-parameters on 
 ![Alt text](Images/Mean_Accuracy_LOTO_K_Folds_Validation.PNG?raw=true "Title")
 ![Alt text](Images/Mean_Accuracy_FNOW_K_Folds_Validation.PNG?raw=true "Title")
 ![Alt text](Images/Mean_Accuracy_SNOW_LOSO_Validation.PNG?raw=true "Title")
-![Alt text](Images/Mean_Accuracy_FNOW_HO_Validation_Proposed_App.PNG?raw=true "Title")
+![Alt text](Images/Mean_Accuracy_SNOW_HO_Validation.PNG?raw=true "Title")
+![Alt text](Images/Mean_Accuracy_SNOW_HO_Validation_Proposed_App.PNG?raw=true "Title")
 ![Alt text](Images/Mean_Accuracy_FNOW_HO_Validation_Proposed_App.PNG?raw=true "Title")
 ![Alt text](Images/Mean_Accuracy_LOTO_HO_Validation_Proposed_Approach.PNG?raw=true "Title")
