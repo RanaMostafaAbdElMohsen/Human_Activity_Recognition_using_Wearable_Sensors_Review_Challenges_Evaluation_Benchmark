@@ -2,7 +2,7 @@
 https://www.ncbi.nlm.nih.gov/pubmed/29060391
 
 ## Summary
-https://docs.google.com/document/d/13RBlVf5hCFd2rVwn19_KIMjUZnaJVjm_07aRUCO_Pmg/edit?usp=sharing
+
 ### About Paper
 
 #### Background & Info

@@ -1,7 +1,7 @@
 # Bevilacqua et al 2019
 https://arxiv.org/pdf/1906.01935.pdf
 ## Summary
-https://docs.google.com/document/d/1I96tZfD0pYkfr3qb4VsUtid2StrkhLovwHx70Vk2KBw/edit?usp=sharing
+
 ### About Paper
 
 #### Background & Info
