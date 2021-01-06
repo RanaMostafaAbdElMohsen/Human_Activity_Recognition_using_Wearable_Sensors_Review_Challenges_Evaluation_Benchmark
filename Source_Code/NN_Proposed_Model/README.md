@@ -84,6 +84,8 @@ There are 6 important features mentioned in Catal paper added 9 new feature:
 
 
 
-For Opportunity Dataset:
-NN_Proposed_1  : 86.24%
-NN_Proposed_2  : 85.78%
+- For Opportunity Dataset:
+
+	- NN_Proposed_1  : 86.24%
+	- NN_Proposed_2  : 85.78%
+
