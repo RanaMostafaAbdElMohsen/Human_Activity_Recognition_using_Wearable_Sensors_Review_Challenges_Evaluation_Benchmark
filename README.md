@@ -1,6 +1,18 @@
 ## Overview
 This github is an implementation for accepted manuscript titled `Human Activity Recognition using Wearable Sensors: Review, Challenges, Evaluation Benchmark`.
 
+If you find code useful, please consider citing
+```
+@article{
+      title={Human Activity Recognition using Wearable Sensors: Review, Challenges, Evaluation Benchmark}, 
+      author={Reem Abdel-Salam and Rana Mostafa and Mayada Hadhood},
+      year={2021},
+      eprint={2101.01665},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
+
 Recognizing human activity plays a significant role in the advancements of human-interaction applications in healthcare, personal fitness, and smart devices. Many papers presented various techniques for human activity representation that resulted in distinguishable progress.
 
 In this study, we conduct an extensive literature review on recent, top performing techniques in human activity recognition based on wearable sensors. Due to the lack of standardized evaluation and to assess and ensure a fair comparison between the state-of-the-art techniques, we applied a standardized evaluation benchmark on the state-of-the-art techniques using six publicly available data-sets: MHealth, USCHAD, UTDMHAD, WISDM, WHARF, and OPPORTUNITY. Also, we propose an experimental, improved approach that is a hybrid of enhanced handcrafted features and a neural network architecture which outperformed top-performing techniques with the same standardized evaluation benchmark applied concerning MHealth, USCHAD, UTD-MHAD data-sets.
