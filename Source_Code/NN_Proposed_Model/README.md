@@ -14,12 +14,12 @@ There are 6 important features mentioned in Catal paper added 9 new feature:
 7. Mean
 8. Max
 9. Min
-10.kurtosis
-11.interquartile range
-12.Skew
-13.Area
-14.Square Area
-15.Median
+10. kurtosis
+11. interquartile range
+12. Skew
+13. Area
+14. Square Area
+15. Median
 
 #### Approach
 15 Features + Neural Network Approach
@@ -31,7 +31,9 @@ There are 6 important features mentioned in Catal paper added 9 new feature:
 
 #### Paper Accuracies Obtained with Implementation Existing in Repo
 - With Respect to LOSO DataSet:
+
 | LOSO          |  NN proposed 1  |   NN proposed 2   |
+|---------------|:---------------:|:-----------------:|
 | MHealth       |   99.76%        |      100%         |
 | USCHAD        |   92.17%        |      92.60%       |
 | UTDMHAD1_1s   |   66.18%        |      67.15%       |
@@ -41,7 +43,9 @@ There are 6 important features mentioned in Catal paper added 9 new feature:
 
 
 - With Respect to LOTO DataSet:
+
 | LOTO          |  NN proposed 1  |   NN proposed 2   |
+|---------------|:---------------:|:-----------------:|
 | MHealth       |   100%          |      99.76%       |
 | USCHAD        |   92.13%        |      91.58%       |
 | UTDMHAD1_1s   |   68.51%        |      65.22%       |
@@ -52,7 +56,9 @@ There are 6 important features mentioned in Catal paper added 9 new feature:
 
 
 - With Respect to SNOW DataSet:
+
 | SNOW          |  NN proposed 1  |   NN proposed 2   |
+|---------------|:---------------:|:-----------------:|
 | MHealth       |   100%          |      100%         |
 | USCHAD        |   92.72%        |      91.83%       |
 | UTDMHAD1_1s   |   65.70%        |      66.51%       |
@@ -63,7 +69,9 @@ There are 6 important features mentioned in Catal paper added 9 new feature:
 
 
 - With Respect to FNOW DataSet:
+
 | FNOW          |  NN proposed 1  |   NN proposed 2   |
+|---------------|:---------------:|:-----------------:|
 | MHealth       |   100%          |      100%         |
 | USCHAD        |   89.72%        |      90.38%       |
 | UTDMHAD1_1s   |   62.13%        |      61.83%       |
