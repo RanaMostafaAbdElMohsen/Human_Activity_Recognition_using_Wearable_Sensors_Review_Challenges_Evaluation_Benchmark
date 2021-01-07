@@ -1,7 +1,7 @@
 # Jian Sun et al 2018
 https://www.hindawi.com/journals/js/2018/8580959/
 ## Summary
-https://docs.google.com/document/d/19ORHFY05gM035UpxD-7SD3C9j29edp-UfUTOz3Oifb8/edit?usp=sharing
+
 ### About Paper
 
 #### Background & Info
