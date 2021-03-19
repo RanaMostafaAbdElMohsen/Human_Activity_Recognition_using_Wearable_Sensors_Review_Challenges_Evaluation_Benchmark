@@ -3,6 +3,26 @@ This github is an implementation for accepted manuscript titled `Human Activity 
 
 If you find code useful, please consider citing
 ```
+
+@InProceedings{10.1007/978-981-16-0575-8_1,
+author="Abdel-Salam, Reem
+and Mostafa, Rana
+and Hadhood, Mayada",
+editor="Li, Xiaoli
+and Wu, Min
+and Chen, Zhenghua
+and Zhang, Le",
+title="Human Activity Recognition Using Wearable Sensors: Review, Challenges, Evaluation Benchmark",
+booktitle="Deep Learning for Human Activity Recognition",
+year="2021",
+publisher="Springer Singapore",
+address="Singapore",
+pages="1--15",
+abstract="Recognizing human activity plays a significant role in the advancements of human-interaction applications in healthcare, personal fitness, and smart devices. Many papers presented various techniques for human activity representation that resulted in distinguishable progress. In this study, we conduct an extensive literature review on recent, top-performing techniques in human activity recognition based on wearable sensors. Due to the lack of standardized evaluation and to assess and ensure a fair comparison between the state-of-the-art techniques, we applied a standardized evaluation benchmark on the state-of-the-art techniques using six publicly available data-sets: MHealth, USCHAD, UTD-MHAD, WISDM, WHARF, and OPPORTUNITY. Also, we propose an experimental, improved approach that is a hybrid of enhanced handcrafted features and a neural network architecture which outperformed top-performing techniques with the same standardized evaluation benchmark applied concerning MHealth, USCHAD, UTD-MHAD data-sets.",
+isbn="978-981-16-0575-8"
+}
+
+
 @article{
       title={Human Activity Recognition using Wearable Sensors: Review, Challenges, Evaluation Benchmark}, 
       author={Reem Abdel-Salam and Rana Mostafa and Mayada Hadhood},
@@ -11,6 +31,7 @@ If you find code useful, please consider citing
       archivePrefix={arXiv},
       primaryClass={cs.CV}
 }
+
 ```
 
 Recognizing human activity plays a significant role in the advancements of human-interaction applications in healthcare, personal fitness, and smart devices. Many papers presented various techniques for human activity representation that resulted in distinguishable progress.
